@@ -68,7 +68,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://github.com/tim-krebs',
     },
     {
       id: nanoid(),
@@ -78,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'linkedin.com/in/tim-krebs-04693a1b5',
     },
     {
       id: nanoid(),
