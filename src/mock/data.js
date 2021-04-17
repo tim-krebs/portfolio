@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',   // Put profile image here (apsect ratio: square)
   paragraphOne: 'I am a Embedded Software Engineer with speciality in C/C++, Python, Assembler.',
   paragraphTwo: 'I am interest in developing natural language procssseing (nlp) applications on MCUs.',
-  paragraphThree: '',
+  paragraphThree: '...',
   //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'houseparty.jpeg',
     title: 'House Part App',
-    info: '',
-    info2: '',
+    info: 'House party is a WebApp built with Django and React. The Backend is connected with Spotify.',
+    info2: 'Users can create Party Rooms and share the room code with their freinds.',
     url: '',
     repo: 'https://github.com/tim-krebs/housepartyapp', // if no repo, the button will not show up
   },
@@ -39,19 +39,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'nlp.png',
     title: 'NLP in C++',
-    info: '',
-    info2: '',
+    info: 'This library detects your voice. The NN is trained with the MNIST Dataset.',
+    info2: 'Unfortunately it is not completed yet, but I will work on it.',
     url: '',
     repo: 'https://github.com/tim-krebs/CPP_ML', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: 'Search Engine',
-    info: '',
-    info2: '',
+    info: 'This is a Search Engine built in C++ and CMAKE.',
+    info2: 'It is not yet uploaded',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/tim-krebs/', // if no repo, the button will not show up
   },
 ];
 
