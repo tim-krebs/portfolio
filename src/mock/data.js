@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',   // Put profile image here (apsect ratio: square)
   paragraphOne: 'I am a Embedded Software Engineer with speciality in C/C++, Python, Assembler.',
-  paragraphTwo: '...',
-  paragraphThree: '...',
+  paragraphTwo: 'I am interest in developing natural language procssseing (nlp) applications on MCUs.',
+  paragraphThree: '',
   //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,21 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'houseparty.jpeg',
     title: 'House Part App',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/tim-krebs/housepartyapp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'nlp.png',
     title: 'NLP in C++',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/tim-krebs/CPP_ML', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
